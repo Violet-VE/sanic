@@ -25,6 +25,12 @@ conda config --add channels conda-forge
 conda install sanic
 ```
 
+**IMPORTANT**: The `SanicTestClient` requires some additional dependencies. Therefore, it is **recommended** that you install Sanic in your development environment this way:
+
+```bash
+pip3 install sanic[test]
+```
+
 ##  2. Create a file called `main.py`
 
   ```python
